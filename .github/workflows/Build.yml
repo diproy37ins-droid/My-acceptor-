@@ -21,7 +21,7 @@ jobs:
 
       - uses: gradle/actions/setup-gradle@v4
         with:
-          gradle-version: 7.4.2
+          gradle-version: 8.7
 
       - name: Build debug APK
         working-directory: AutoAccept
